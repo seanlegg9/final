@@ -1,10 +1,10 @@
 <!--Mission Statement: 
             - Target Audience: 
-                Bored People
+                Pizza Lovers
             - Problem I Will Solve: 
-                Filling out a MadLibs sheet for the user
-            - Why It Will Be Useful: 
-                Doing MadLibs without assisstance spoils some context for the word you are filling out. That ruins the fun.
+                Calculating the cost of a pizza that the user creates.
+            - Why It Needs To Be Solved: 
+                People want to know the costs before they order.
 -->
 
 <!DOCTYPE html>
@@ -13,13 +13,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MadLibs Helper</title>
+    <title>It's-a Pizza!</title>
     <link rel="stylesheet" href="Final.css">
 </head>
 <body>
-    
-
-
+   <form name="order">
+       <select name="size">
+           <option value="small">Small</option>
+           <option value="medium">Medium</option>
+           <option value="large">Large</option>
+       </select>
+       <br>
+       <label for="toppings">Toppings:</label> 
+       <br>
+       <ul class="meat">
+        <li><label for="meat">Meat:</label></li>
+        <li><input type="checkbox">Pepperoni</li>
+        <li><input type="checkbox">Italian Sausage</li> 
+        <li><input type="checkbox">Sliced Sausage</li>
+        <li><input type="checkbox">Beef</li>
+        <li><input type="checkbox">Salami</li>
+        <li><input type="checkbox">Chicken</li>
+        <li><input type="checkbox">Bacon</li>
+        <li><input type="checkbox">Ham</li>
+        <li><input type="checkbox">Philly Steak</li>
+       </ul>
+       <ul class="veg">
+        <li><label for="vegetable">Vegetables:</label></li>
+        <li><input type="checkbox">Mushrooms</li>
+        <li><input type="checkbox">Onions</li>
+        <li><input type="checkbox">Green Peppers</li>
+        <li><input type="checkbox">Black Olives</li>
+        <li><input type="checkbox">Jalapeno Peppers</li>
+        <li><input type="checkbox">Roasted Red Peppers</li>
+        <li><input type="checkbox">Tomatoes</li>
+        <li><input type="checkbox">Green Olives</li>
+       </ul>
+       <ul class="other">
+        <li><label for="other">Other:</label></li>
+        <li><input type="checkbox">Pineapple</li>
+        <li><input type="checkbox">Cheddar Cheese</li>
+        <li><input type="checkbox">Provolone Cheese</li>
+        <li><input type="checkbox">Feta Cheese</li>
+        <li><input type="checkbox">Extra Sauce</li>
+       </ul>
+    </form>
+    <br>
+    <div class="base">
+        <img src="cheesepizza.png" alt="Cheese Pizza">
+    </div>
     <script src="Final.js"></script>
 </body>
 </html>
