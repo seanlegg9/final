@@ -22,6 +22,11 @@
     bottom: 407px;
 }
 
+.disclaimer {
+    position: relative;
+    bottom: 335px;
+}
+
 .pep1 {
     position: relative;
     left: 300px;
@@ -81,4 +86,102 @@
 .pepperoni img {
     width: 40px;
     height: auto;
+}
+
+.SausageSlice img {
+    width: 40px;
+    height: auto;
+}
+
+.Sli1 {
+    position: relative;
+    left: 215px;
+    bottom: 1150px;
+}
+
+.Sli2 {
+    position: relative;
+    left: 300px;
+    bottom: 1375px;
+}
+
+.Sli3 {
+    position: relative;
+    left: 200px;
+    bottom: 1275px;
+}
+
+.Sli4 {
+    position: relative;
+    left: 60px;
+    bottom: 1250px;
+}
+
+
+.Sli5 {
+    position: relative;
+    left: 225px;
+    bottom: 1300px;
+}
+
+
+.Sli6 {
+    position: relative;
+    left: 50px;
+    bottom: 1200px;
+}
+
+
+.Sli7 {
+    position: relative;
+    left: 150px;
+    bottom: 1225px;
+}
+
+.Sausage img {
+    width: 40px;
+    height: auto;
+}
+
+.Sau1 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
+}
+
+.Sau2 {
+    position: relative;
+    left: 215px;
+    bottom: 1200px;
+}
+
+.Sau3 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
+    transform: rotate(90deg);
+}
+
+.Sau4 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
+}
+
+.Sau5 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
+}
+
+.Sau6 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
+}
+
+.Sau7 {
+    position: relative;
+    left: 225px;
+    bottom: 1340px;
 }
