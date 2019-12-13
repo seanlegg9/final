@@ -19,44 +19,45 @@
 <body>
    <form name="order">
        <select name="size">
-           <option value="small">Small</option>
-           <option value="medium">Medium</option>
-           <option value="large">Large</option>
+           <option value="small" id="small">Small - $5.99</option>
+           <option value="medium" id="medium">Medium - $7.99</option>
+           <option value="large" id="large">Large - $10.99</option>
        </select>
        <br>
-       <label for="toppings">Toppings:</label> 
+       <label for="toppings">Toppings - $0.50:</label> 
        <br>
        <ul class="meat">
         <li><label for="meat">Meat:</label></li>
-        <li><input type="checkbox">Pepperoni</li>
-        <li><input type="checkbox">Italian Sausage</li> 
-        <li><input type="checkbox">Sliced Sausage</li>
-        <li><input type="checkbox">Beef</li>
-        <li><input type="checkbox">Salami</li>
-        <li><input type="checkbox">Chicken</li>
-        <li><input type="checkbox">Bacon</li>
-        <li><input type="checkbox">Ham</li>
-        <li><input type="checkbox">Philly Steak</li>
+        <li><input type="checkbox" id="pep">Pepperoni</li>
+        <li><input type="checkbox" id="itasau">Italian Sausage</li> 
+        <li><input type="checkbox" id="slisau">Sliced Sausage</li>
+        <li><input type="checkbox" id="eef">Beef</li>
+        <li><input type="checkbox" id="sal">Salami</li>
+        <li><input type="checkbox" id="chi">Chicken</li>
+        <li><input type="checkbox" id="bac">Bacon</li>
+        <li><input type="checkbox" id="ham">Ham</li>
+        <li><input type="checkbox" id="philsteak">Philly Steak</li>
        </ul>
        <ul class="veg">
         <li><label for="vegetable">Vegetables:</label></li>
-        <li><input type="checkbox">Mushrooms</li>
-        <li><input type="checkbox">Onions</li>
-        <li><input type="checkbox">Green Peppers</li>
-        <li><input type="checkbox">Black Olives</li>
-        <li><input type="checkbox">Jalapeno Peppers</li>
-        <li><input type="checkbox">Roasted Red Peppers</li>
-        <li><input type="checkbox">Tomatoes</li>
-        <li><input type="checkbox">Green Olives</li>
+        <li><input type="checkbox" id="mush">Mushrooms</li>
+        <li><input type="checkbox" id="oni">Onions</li>
+        <li><input type="checkbox" id="grepep">Green Peppers</li>
+        <li><input type="checkbox" id="blaoli">Black Olives</li>
+        <li><input type="checkbox" id="jal">Jalapeno Peppers</li>
+        <li><input type="checkbox" id="rrp">Roasted Red Peppers</li>
+        <li><input type="checkbox" id="tom">Tomatoes</li>
+        <li><input type="checkbox" id="greoli">Green Olives</li>
        </ul>
        <ul class="other">
         <li><label for="other">Other:</label></li>
-        <li><input type="checkbox">Pineapple</li>
-        <li><input type="checkbox">Cheddar Cheese</li>
-        <li><input type="checkbox">Provolone Cheese</li>
-        <li><input type="checkbox">Feta Cheese</li>
-        <li><input type="checkbox">Extra Sauce</li>
+        <li><input type="checkbox" id="pine">Pineapple</li>
+        <li><input type="checkbox" id="cheche">Cheddar Cheese</li>
+        <li><input type="checkbox" id="provche">Provolone Cheese</li>
+        <li><input type="checkbox" id="feta">Feta Cheese</li>
+        <li><input type="checkbox" id="sauce" class="sauce">Extra Sauce - $0.75</li>
        </ul>
+       <input type="submit" value="See Price When Ready" class="submit">
     </form>
     <p class="disclaimer">Disclaimer: Some toppings may look less round than they do in real life</p>
     <br>
@@ -89,6 +90,15 @@
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau5">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau6">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau7">
+    </div>
+    <div class="Beef">
+        <img src="" alt="Beef" class="Beef1">
+        <img src="" alt="Beef" class="Beef2">
+        <img src="" alt="Beef" class="Beef3">
+        <img src="" alt="Beef" class="Beef4">
+        <img src="" alt="Beef" class="Beef5">
+        <img src="" alt="Beef" class="Beef6">
+        <img src="" alt="Beef" class="Beef7">
     </div>
     <script src="Final.js"></script>
 </body>

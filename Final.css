@@ -27,6 +27,11 @@
     bottom: 335px;
 }
 
+.submit {
+    position: relative;
+    bottom: 325px;
+}
+
 .pep1 {
     position: relative;
     left: 300px;
@@ -157,31 +162,33 @@
 
 .Sau3 {
     position: relative;
-    left: 225px;
-    bottom: 1340px;
+    left: 200px;
+    bottom: 1430px;
     transform: rotate(90deg);
 }
 
 .Sau4 {
     position: relative;
-    left: 225px;
-    bottom: 1340px;
+    left: 75px;
+    bottom: 1240px;
+    transform: rotate(90deg);
 }
 
 .Sau5 {
     position: relative;
-    left: 225px;
-    bottom: 1340px;
+    left: 200px;
+    bottom: 1300px;
 }
 
 .Sau6 {
     position: relative;
-    left: 225px;
-    bottom: 1340px;
+    left: 100px;
+    bottom: 1230px;
 }
 
 .Sau7 {
     position: relative;
-    left: 225px;
-    bottom: 1340px;
+    left: 75px;
+    bottom: 1375px;
+    transform: rotate(90deg);
 }
