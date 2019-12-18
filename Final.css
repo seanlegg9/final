@@ -2,7 +2,7 @@
     width: 1000px;
     height: 1000px;
     position: relative;
-    bottom: 375px;
+    bottom: 55px;
 }
 
 .base img{
@@ -24,66 +24,71 @@
 
 .disclaimer {
     position: relative;
-    bottom: 335px;
+    bottom: 50px;
+}
+
+.pizzaprice {
+    position: relative;
+    bottom: 1525px;
 }
 
 .submit {
     position: relative;
-    bottom: 325px;
+    bottom: -15px;
 }
 
 .pep1 {
     position: relative;
-    left: 300px;
-    bottom: 1100px;
+    left: 275px;
+    bottom: 825px;
     width: 50px;
     height: 50px;
 }
 
 .pep2 {
     position: relative;
-    left: 300px;
-    bottom: 1250px;
+    left: 275px;
+    bottom: 975px;
     width: 50px;
     height: 50px;
 }
 
 .pep3 {
     position: relative;
-    left: 150px;
-    bottom: 1200px;
+    left: 125px;
+    bottom: 925px;
     width: 50px;
     height: 50px;
 }
 
 .pep4 {
     position: relative;
-    left: 100px;
-    bottom: 1300px;
+    left: 75px;
+    bottom: 1025px;
     width: 50px;
     height: 50px;
 }
 
 .pep5 {
     position: relative;
-    left: 205px;
-    bottom: 1125px;
+    left: 180px;
+    bottom: 850px;
     width: 50px;
     height: 50px;
 }
 
 .pep6 {
     position: relative;
-    left: 75px;
-    bottom: 1300px;
+    left: 50px;
+    bottom: 1025px;
     width: 50px;
     height: 50px;
 }
 
 .pep7 {
     position: relative;
-    left: 80px;
-    bottom: 1175px;
+    left: 55px;
+    bottom: 900px;
     width: 50px;
     height: 50px;
 }
@@ -101,46 +106,46 @@
 .Sli1 {
     position: relative;
     left: 215px;
-    bottom: 1150px;
+    bottom: 865px;
 }
 
 .Sli2 {
     position: relative;
     left: 300px;
-    bottom: 1375px;
+    bottom: 1090px;
 }
 
 .Sli3 {
     position: relative;
     left: 200px;
-    bottom: 1275px;
+    bottom: 990px;
 }
 
 .Sli4 {
     position: relative;
     left: 60px;
-    bottom: 1250px;
+    bottom: 965px;
 }
 
 
 .Sli5 {
     position: relative;
     left: 225px;
-    bottom: 1300px;
+    bottom: 1015px;
 }
 
 
 .Sli6 {
     position: relative;
     left: 50px;
-    bottom: 1200px;
+    bottom: 890px;
 }
 
 
 .Sli7 {
     position: relative;
     left: 150px;
-    bottom: 1225px;
+    bottom: 915px;
 }
 
 .Sausage img {
@@ -151,44 +156,275 @@
 .Sau1 {
     position: relative;
     left: 225px;
-    bottom: 1340px;
+    bottom: 1040px;
 }
 
 .Sau2 {
     position: relative;
     left: 215px;
-    bottom: 1200px;
+    bottom: 900px;
 }
 
 .Sau3 {
     position: relative;
     left: 200px;
-    bottom: 1430px;
+    bottom: 1130px;
     transform: rotate(90deg);
 }
 
 .Sau4 {
     position: relative;
     left: 75px;
-    bottom: 1240px;
+    bottom: 940px;
     transform: rotate(90deg);
 }
 
 .Sau5 {
     position: relative;
     left: 200px;
-    bottom: 1300px;
+    bottom: 1000px;
 }
 
 .Sau6 {
     position: relative;
     left: 100px;
-    bottom: 1230px;
+    bottom: 930px;
 }
 
 .Sau7 {
     position: relative;
     left: 75px;
-    bottom: 1375px;
+    bottom: 1075px;
     transform: rotate(90deg);
+}
+
+.Beef img {
+    width: 40px;
+    height: auto;
+}
+
+.Beef1 {
+    position: relative;
+    left: 225px;
+    bottom: 1040px;
+}
+
+.Beef2 {
+    position: relative;
+    left: 215px;
+    bottom: 900px;
+}
+
+.Beef3 {
+    position: relative;
+    left: 200px;
+    bottom: 1130px;
+    transform: rotate(90deg);
+}
+
+.Beef4 {
+    position: relative;
+    left: 75px;
+    bottom: 940px;
+    transform: rotate(90deg);
+}
+
+.Beef5 {
+    position: relative;
+    left: 200px;
+    bottom: 1000px;
+}
+
+.Beef6 {
+    position: relative;
+    left: 100px;
+    bottom: 930px;
+}
+
+.Beef7 {
+    position: relative;
+    left: 75px;
+    bottom: 1075px;
+    transform: rotate(90deg);
+}
+
+.Salami img {
+    width: 40px;
+    height: auto;
+}
+
+.Sal1 {
+    position: relative;
+    left: 215px;
+    bottom: 940px;
+}
+
+.Sal2 {
+    position: relative;
+    left: 300px;
+    bottom: 1165px;
+}
+
+.Sal3 {
+    position: relative;
+    left: 200px;
+    bottom: 1065px;
+}
+
+.Sal4 {
+    position: relative;
+    left: 60px;
+    bottom: 1040px;
+}
+
+
+.Sal5 {
+    position: relative;
+    left: 225px;
+    bottom: 1090px;
+}
+
+
+.Sal6 {
+    position: relative;
+    left: 50px;
+    bottom: 965px;
+}
+
+
+.Sal7 {
+    position: relative;
+    left: 150px;
+    bottom: 990px;
+}
+
+.Chi1 {
+    position: relative;
+    left: 275px;
+    bottom: 925px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi2 {
+    position: relative;
+    left: 275px;
+    bottom: 1075px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi3 {
+    position: relative;
+    left: 125px;
+    bottom: 1025px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi4 {
+    position: relative;
+    left: 75px;
+    bottom: 1125px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi5 {
+    position: relative;
+    left: 180px;
+    bottom: 950px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi6 {
+    position: relative;
+    left: 50px;
+    bottom: 925px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chi7 {
+    position: relative;
+    left: 55px;
+    bottom: 1000px;
+    width: 50px;
+    height: 50px;
+}
+
+.Chicken img {
+    width: 40px;
+    height: auto;
+}
+
+.Bac {
+    position: relative;
+    left: 150px;
+    bottom: 1200px;
+    width: 285px;
+    height: auto;
+}
+
+.Pin1 {
+    position: relative;
+    left: 275px;
+    bottom: 1175px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin2 {
+    position: relative;
+    left: 275px;
+    bottom: 1325px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin3 {
+    position: relative;
+    left: 125px;
+    bottom: 1275px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin4 {
+    position: relative;
+    left: 75px;
+    bottom: 1375px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin5 {
+    position: relative;
+    left: 180px;
+    bottom: 1200px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin6 {
+    position: relative;
+    left: 50px;
+    bottom: 1175px;
+    width: 50px;
+    height: 50px;
+}
+
+.Pin7 {
+    position: relative;
+    left: 55px;
+    bottom: 1250px;
+    width: 50px;
+    height: 50px;
+}
+
+.Oli {
+    position: relative;
+    left: -55px;
+    bottom: 1500px;
 }

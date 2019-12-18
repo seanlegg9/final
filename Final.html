@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="Final.css">
 </head>
 <body>
-   <form name="order">
+    <h3>Price can be found under the pizza once the "See Price When Ready" button is pressed. Refresh the page before pressing "See Price When Ready" a second time.</h3>
+   <form name="order" id="order">
        <select name="size">
            <option value="small" id="small">Small - $5.99</option>
            <option value="medium" id="medium">Medium - $7.99</option>
@@ -27,44 +28,24 @@
        <label for="toppings">Toppings - $0.50:</label> 
        <br>
        <ul class="meat">
-        <li><label for="meat">Meat:</label></li>
-        <li><input type="checkbox" id="pep">Pepperoni</li>
-        <li><input type="checkbox" id="itasau">Italian Sausage</li> 
-        <li><input type="checkbox" id="slisau">Sliced Sausage</li>
-        <li><input type="checkbox" id="eef">Beef</li>
-        <li><input type="checkbox" id="sal">Salami</li>
-        <li><input type="checkbox" id="chi">Chicken</li>
-        <li><input type="checkbox" id="bac">Bacon</li>
-        <li><input type="checkbox" id="ham">Ham</li>
-        <li><input type="checkbox" id="philsteak">Philly Steak</li>
-       </ul>
-       <ul class="veg">
-        <li><label for="vegetable">Vegetables:</label></li>
-        <li><input type="checkbox" id="mush">Mushrooms</li>
-        <li><input type="checkbox" id="oni">Onions</li>
-        <li><input type="checkbox" id="grepep">Green Peppers</li>
-        <li><input type="checkbox" id="blaoli">Black Olives</li>
-        <li><input type="checkbox" id="jal">Jalapeno Peppers</li>
-        <li><input type="checkbox" id="rrp">Roasted Red Peppers</li>
-        <li><input type="checkbox" id="tom">Tomatoes</li>
-        <li><input type="checkbox" id="greoli">Green Olives</li>
-       </ul>
-       <ul class="other">
-        <li><label for="other">Other:</label></li>
-        <li><input type="checkbox" id="pine">Pineapple</li>
-        <li><input type="checkbox" id="cheche">Cheddar Cheese</li>
-        <li><input type="checkbox" id="provche">Provolone Cheese</li>
-        <li><input type="checkbox" id="feta">Feta Cheese</li>
-        <li><input type="checkbox" id="sauce" class="sauce">Extra Sauce - $0.75</li>
+        <li><label for="meat">Toppings:</label></li>
+        <li><input type="checkbox" id="pep" class="pep" >Pepperoni</li>
+        <li><input type="checkbox" id="itasau" class="itasau">Italian Sausage</li> 
+        <li><input type="checkbox" id="slisau" class="slisau">Sliced Sausage</li>
+        <li><input type="checkbox" id="beef" class="beef">Beef</li>
+        <li><input type="checkbox" id="sal" class="sal">Salami</li>
+        <li><input type="checkbox" id="chi" class="chi">Chicken</li>
+        <li><input type="checkbox" id="bac" class="bac">Bacon</li>
+        <li><input type="checkbox" id="pine" class="pine">Pineapple</li>
+        <li><input type="checkbox" id="oli" class="oli">Black Olives</li>
        </ul>
        <input type="submit" value="See Price When Ready" class="submit">
-    </form>
-    <p class="disclaimer">Disclaimer: Some toppings may look less round than they do in real life</p>
+    <p class="disclaimer">Disclaimer: Some toppings may look less round than they do in real life.</p>
     <br>
     <div class="base">
         <img src="cheesepizza.png" alt="Cheese Pizza">
     </div>
-    <div class="pepperoni">
+    <div class="Pepperoni" id="Pepperoni">
         <img src="pepperoni.png" alt="Pepperoni" class="pep1">
         <img src="pepperoni.png" alt="Pepperoni" class="pep2">
         <img src="pepperoni.png" alt="Pepperoni" class="pep3">
@@ -73,7 +54,7 @@
         <img src="pepperoni.png" alt="Pepperoni" class="pep6">
         <img src="pepperoni.png" alt="Pepperoni" class="pep7">
     </div>
-    <div class="SausageSlice">
+    <div class="SausageSlice" id="SausageSlice">
         <img src="slicedsausage.jpg" alt="Sliced Sausage" class="Sli1">
         <img src="slicedsausage.jpg" alt="Sliced Sausage" class="Sli2">
         <img src="slicedsausage.jpg" alt="Sliced Sausage" class="Sli3">
@@ -82,7 +63,7 @@
         <img src="slicedsausage.jpg" alt="Sliced Sausage" class="Sli6">
         <img src="slicedsausage.jpg" alt="Sliced Sausage" class="Sli7">
     </div>
-    <div class="Sausage">
+    <div class="Sausage" id="Sausage">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau1">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau2">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau3">
@@ -91,15 +72,63 @@
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau6">
         <img src="sausage.jpg" alt="Italian Sausage" class="Sau7">
     </div>
-    <div class="Beef">
-        <img src="" alt="Beef" class="Beef1">
-        <img src="" alt="Beef" class="Beef2">
-        <img src="" alt="Beef" class="Beef3">
-        <img src="" alt="Beef" class="Beef4">
-        <img src="" alt="Beef" class="Beef5">
-        <img src="" alt="Beef" class="Beef6">
-        <img src="" alt="Beef" class="Beef7">
+    <div class="Beef" id="Beef">
+        <img src="beef.png" alt="Beef" class="Beef1">
+        <img src="beef.png" alt="Beef" class="Beef2">
+        <img src="beef.png" alt="Beef" class="Beef3">
+        <img src="beef.png" alt="Beef" class="Beef4">
+        <img src="beef.png" alt="Beef" class="Beef5">
+        <img src="beef.png" alt="Beef" class="Beef6">
+        <img src="beef.png" alt="Beef" class="Beef7">
     </div>
+    <div class="Salami" id="Salami">
+        <img src="salami.jfif" alt="Salami" class="Sal1">
+        <img src="salami.jfif" alt="Salami" class="Sal2">
+        <img src="salami.jfif" alt="Salami" class="Sal3">
+        <img src="salami.jfif" alt="Salami" class="Sal4">
+        <img src="salami.jfif" alt="Salami" class="Sal5">
+        <img src="salami.jfif" alt="Salami" class="Sal6">
+        <img src="salami.jfif" alt="Salami" class="Sal7">
+    </div>
+    <div class="Chicken" id="Chicken">
+        <img src="chicken.jpg" alt="Chicken" class="Chi1">
+        <img src="chicken.jpg" alt="Chicken" class="Chi2">
+        <img src="chicken.jpg" alt="Chicken" class="Chi3">
+        <img src="chicken.jpg" alt="Chicken" class="Chi4">
+        <img src="chicken.jpg" alt="Chicken" class="Chi5">
+        <img src="chicken.jpg" alt="Chicken" class="Chi6">
+        <img src="chicken.jpg" alt="Chicken" class="Chi7">
+    </div>
+    <div class="Bacon" id="Bacon">
+        <img src="bacon.png" alt="Bacon" class="Bac">
+    </div>
+    <div class="Pineapple" id="Pineapple">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin1">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin2">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin3">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin4">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin5">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin6">
+        <img src="pineapple.jfif" alt="Pineapple" class="Pin7">
+    </div>
+    <div class="Olives" id="Olives">
+        <img src="olives.png" alt="Olives" class="Oli">
+    </div>
+    <br>
+    <div class="pizzaprice">
+    <h3 id="pizzataxless">
+        Your Price Without Tax: $
+    </h3>
+    <br>
+    <h3 id="pizzatax">
+        Your Tax: $
+    </h3>
+    <br>
+    <h3 id="pizzafull">
+        Your Price With Taxes: $
+    </h3>
+    </div>
+    </form>
     <script src="Final.js"></script>
 </body>
 </html>
